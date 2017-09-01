@@ -1,0 +1,83 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,html{
+    margin:0;
+    padding:0;
+    height: 100%;
+    width:100%;
+}
+
+button[type="button"]{
+    width: 120px;
+    padding: 20px 0;
+    font-size: 20px;
+    border: 1px solid #ffc93b;
+    border-radius: 10px;
+    background-color: #ffc93b;
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+}
+
+td{
+    float: left;
+    padding: 10px 0;
+}
+
+tr{
+    width: 100%;
+}
+
+thead>tr:nth-child(1){
+    background-color: #ffc93b;
+    color: #fff;
+}
+
+td:nth-child(1){
+    width: 5%;
+    text-align: center;
+}
+
+td:nth-child(2){
+    width: 70%;
+}
+
+td:nth-child(3){
+    width: 25%;
+}
+
+#popup h1{
+    font-size: 50px;
+}
+
+#popup input{
+    margin-top: 10px;
+    margin-left: 10%;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    float: left;
+}
+
+#popup button{
+    float: left;
+    margin-left: 5px;
+}

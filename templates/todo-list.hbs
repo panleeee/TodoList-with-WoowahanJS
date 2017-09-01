@@ -1,0 +1,12 @@
+<button type="button" id="delete-btn">Delete</button>
+<button type="button" id="open-add-popup">Add</button>
+<table>
+<thead>
+<tr>
+    <td {{#if isDisplayCheckbox}}style="visibility: hidden" {{/if}}><input  type="checkbox" {{#if isAllCheckboxChecked}}checked{{/if}} id="all-checkbox"></td>
+    <td>Title</td>
+    <td>Publish Date</td>
+</tr>
+</thead>
+<tbody class="container"></tbody>
+</table>
